@@ -6,10 +6,11 @@
    export let progress = signal(0)
    
    animate(async() => {
-     await progress.to(10_000)
+     await progress.to(10000)
    })
  </script>
  
  <Slide>
-   {$progress.toLocaleString('en', { maximumFractionDigits: 0 })}
+   {$progress.toLocaleString('es', { maximumFractionDigits: 0 })}
+ 
  </Slide>
