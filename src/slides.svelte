@@ -133,14 +133,61 @@
 	<Slide>
 		<div class="space-y-8">
 		<div class="bg-orange-500 rounded-lg p-4 mr-10 w-auto animate-refine-slide">Estratègies de producte: LA MARCA</div>
-		<Step class="bg-orange-100 text-black">Marca única: Yamaha</Step>
-		<Step class="bg-orange-100 text-black">Marca individual: Una empresa (Unilever) amb productes diferents (TRESemmé, Timotei, Axe/Lynx, Rexona, Maizena, Lipton, Knorr, Ligeresa, Calvé)</Step>
-	    <Step class="bg-orange-100 text-black">Marques per línies de producte: SONY, amb Xperia, Bravia, PlayStation, Vaio</Step>
-		<Step class="bg-orange-100 text-black">Segones marques: Toyota amb Lexus</Step>
-		<Step class="bg-orange-100 text-black">Marca blanca o de distribuïdor: Hacendado de Mercadona, Boomerang de ElCorteInglés</Step>
+		<Step class="text-white text-black text-left text-xl">Marca única: Yamaha</Step>
+		<Step class="text-white text-black text-left text-xl">Marca individual: Una empresa (Unilever) amb productes diferents (TRESemmé, Timotei, Axe/Lynx, Rexona, Maizena, Lipton, Knorr, Ligeresa, Calvé)</Step>
+	    <Step class="text-white text-black text-left text-xl">Marques per línies de producte: SONY, amb Xperia, Bravia, PlayStation, Vaio</Step>
+		<Step class="text-white text-black text-left text-xl">Segones marques: Toyota amb Lexus</Step>
+		<Step class="text-white text-black text-left text-xl">Marca blanca o de distribuïdor: Hacendado de Mercadona, Boomerang de ElCorteInglés</Step>
+	</div>
+	</Slide>
+
+	<Slide>
+		<div class="space-y-8">
+		<div class="bg-stone-400 rounded-lg p-4 mr-10 w-auto animate-refine-slide">Estratègies de preu</div>
+		<Step class="text-white text-black text-left text-xl">Segons la competència</Step>
+		<Step class="text-white text-black text-left text-xl">Diferencials: client, mercat, canal, moment de venda</Step>
+	    <Step class="text-white text-black text-left text-xl">Descremat</Step>
+		<Step class="text-white text-black text-left text-xl">Penetració</Step>
+		<Step class="text-white text-black text-left text-xl">Marca blanca o de distribuïdor: Hacendado de Mercadona, Boomerang de ElCorteInglés</Step>
 	</div>
 	</Slide>
 	
+	<Slide>
+		
+		<div class="bg-yellow-400 rounded-lg p-4 mr-10 w-auto animate-refine-slide">Distribució</div>
+		<div class="space-y-8 grid grid-cols-3 gap-4">
+		<Step class="text-white text-black text-left text-xl">Canal directe</Step>
+		<Step class="text-white text-black text-left text-xl">Canal curt</Step>
+	    <Step class="text-white text-black text-left text-xl">Canal llarg</Step>
+		<Step class="text-white text-black text-left text-xl">Comerciant majorista</Step>
+		<Step class="text-white text-black text-left text-xl">Comerciant minorista</Step>
+		<Step class="text-white text-black text-left text-xl">Canal llarg</Step>
+		<Step class="text-white text-black text-left text-xl">Distribució intensiva</Step>
+		<Step class="text-white text-black text-left text-xl">Distribució exclusiva</Step>
+		<Step class="text-white text-black text-left text-xl">Distribució selectiva</Step>
+		<Step class="text-white text-black text-left text-xl">Estratègia push</Step>
+		<Step class="text-white text-black text-left text-xl">Estratègia pull</Step>
+		<Step class="text-white text-black text-left text-xl">Franquícies</Step>
+		<Step class="text-white text-black text-left text-xl">Category killers</Step>
+		<Step class="text-white text-black text-left text-xl">e-Commerce</Step>
+		<Step class="text-white text-black text-left text-xl">Establiments discount</Step>
+		<Step class="text-white text-black text-left text-xl">Botigues de convivència</Step>
+		<Step class="text-white text-black text-left text-xl">Vending</Step>
+	</div>
+	</Slide>
+
+	<Slide>
+		
+		<div class="bg-teal-400 rounded-lg p-4 mr-10 w-auto animate-refine-slide">Estratègies de comunicació</div>
+		<div class="space-y-8 grid grid-cols-2 gap-4">
+		<Step class="text-white text-black text-left text-xl">Publicitat</Step>
+		<Step class="text-white text-black text-left text-xl">Promoció de vendes</Step>
+	    <Step class="text-white text-black text-left text-xl">Marxandatge</Step>
+		<Step class="text-white text-black text-left text-xl">Venda personal</Step>
+		<Step class="text-white text-black text-left text-xl">Relacions públiques</Step>
+	
+	</div>
+	</Slide>
 	
 </Presentation>
 
