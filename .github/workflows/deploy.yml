@@ -1,0 +1,39 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Ejecuta el workflow cuando haya cambios en la rama `main`
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Paso 1: Check out el repositorio
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    # Paso 2: Configura Node.js
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'  # O la versión de Node que estés usando
+
+    # Paso 3: Instala las dependencias del proyecto
+    - name: Install dependencies
+      run: |
+        npm install  # Instala las dependencias definidas en package.json
+
+    # Paso 4: Compila el proyecto
+    - name: Build project
+      run: |
+        npm run build  # Asegúrate de que el comando `npm run build` genera la salida en la carpeta `docs`
+
+    # Paso 5: Desplegar a GitHub Pages
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}  # GitHub proporciona este token automáticamente
+        publish_dir: ./docs  # La carpeta `docs` donde se genera tu proyecto
+        publish_branch: gh-pages  # La rama `gh-pages` donde se va a desplegar el sitio
